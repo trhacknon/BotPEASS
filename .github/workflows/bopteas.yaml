@@ -24,8 +24,8 @@ jobs:
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           VULNERS_API_KEY: ${{ secrets.VULNERS_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ 5652646531:AAHKjBs8i4xHDL-DigTUuJIM696GVbBG0aM }}
+          TELEGRAM_CHAT_ID: ${{ -1001490317179 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Create local changes
