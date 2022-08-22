@@ -23,7 +23,7 @@ jobs:
         shell: bash
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          VULNERS_API_KEY: ${{ secrets.VULNERS_API_KEY }}
+          VULNERS_API_KEY: ${{ secrets.SYK1Z0OGD6V9M1FPOR49TG9DR1VDH9ANPVL1URZN4DNO64X8UY202JS9FAIOOXN4 }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.5652646531:AAHKjBs8i4xHDL-DigTUuJIM696GVbBG0aM }}
           TELEGRAM_CHAT_ID: ${{ secrets.1001490317179 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
